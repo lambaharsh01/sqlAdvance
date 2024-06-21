@@ -6,4 +6,4 @@ SELECT DATE_ADD(thisDate, INTERVAL 1 DAY) AS thisDate,
 lastDate,
 DAYOFWEEK(DATE_ADD(thisDate, INTERVAL 1 DAY)) as weekDay FROM sundaysInAnYear
 WHERE
-DATE_ADD(thisDate, INTERVAL 1 DAY) < lastDate ) SELECT * FROM sundaysInAnYear;
+DATE_ADD(thisDate, INTERVAL 1 DAY) < lastDate )SELECT COUNT(*) FROM sundaysInAnYear WHERE weekDay=1;
