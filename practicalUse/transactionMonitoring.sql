@@ -1,4 +1,4 @@
--- MySQL
+-- MySQL TRANSACTION MONITORING FOR LOCKS
 
 1. this query lists all currently running InnoDB transactions in MySQL 
 2. showing transaction info (columns) and how long the session has been active
